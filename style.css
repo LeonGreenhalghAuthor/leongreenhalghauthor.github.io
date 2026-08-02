@@ -229,11 +229,15 @@ nav {
 
 .divider-crystal {
 
+    display: block;
+
     width: 70px;
 
     height: auto;
 
-    margin-bottom: 45px;
+    margin: 0 auto 50px;
+
+    opacity: 1;
 
 }
 
