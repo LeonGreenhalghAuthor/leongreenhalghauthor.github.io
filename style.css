@@ -229,21 +229,23 @@ nav {
 
 .section-divider {
 
+    background: #F5F1E8;
+
     display: flex;
 
     justify-content: center;
 
-    margin-bottom: 70px;
+    padding: 70px 0;
 
 }
 
 .divider-crystal {
 
-    width: 42px;
+    width: 55px;
 
     height: auto;
 
-    opacity: .85;
+    opacity: .9;
 
 }
 
