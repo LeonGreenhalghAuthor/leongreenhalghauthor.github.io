@@ -279,9 +279,9 @@ nav {
 
 .book-blurb {
 
-    max-width: 760px;
+    max-width: 680px;
 
-    margin: 90px auto 80px;
+    margin: 90px auto 40px;
 
     text-align: left;
 
@@ -290,6 +290,16 @@ nav {
     font-size: 1.1rem;
 
     color: #F5F1E8;
+
+}
+
+.book-blurb p:first-child {
+
+    font-size: 1.45rem;
+
+    text-align: center;
+
+    margin-bottom: 40px;
 
 }
 
