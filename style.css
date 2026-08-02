@@ -219,7 +219,9 @@ nav {
 
 .shardfall {
 
-    background: #EEE8DB;
+    background: #111111;
+
+    color: #F5F1E8;
 
     padding: 80px 0 120px;
 
@@ -265,6 +267,8 @@ nav {
 
     font-weight: normal;
 
+    color: #F5F1E8;
+
     margin-bottom: 18px;
 
 }
@@ -273,7 +277,7 @@ nav {
 
     font-size: 1.2rem;
 
-    color: #555;
+    color: #D8D1C5;
 
     margin-bottom: 60px;
 
@@ -288,6 +292,8 @@ nav {
     line-height: 1.8;
 
     font-size: 1.1rem;
+
+    color: #F5F1E8;
 
 }
 
