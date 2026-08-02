@@ -227,25 +227,13 @@ nav {
 
 }
 
-.section-divider {
-
-    background: #F5F1E8;
-
-    display: flex;
-
-    justify-content: center;
-
-    padding: 70px 0;
-
-}
-
 .divider-crystal {
 
-    width: 55px;
+    width: 70px;
 
     height: auto;
 
-    opacity: .9;
+    margin-bottom: 45px;
 
 }
 
