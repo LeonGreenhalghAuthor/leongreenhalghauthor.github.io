@@ -279,15 +279,35 @@ nav {
 
 .book-blurb {
 
-    max-width: 700px;
+    max-width: 760px;
 
-    margin: 0 auto 80px;
+    margin: 90px auto 80px;
 
-    line-height: 1.8;
+    text-align: left;
+
+    line-height: 1.9;
 
     font-size: 1.1rem;
 
     color: #F5F1E8;
+
+}
+
+.book-blurb p {
+
+    margin-bottom: 24px;
+
+}
+
+.book-blurb strong {
+
+    color: #F5F1E8;
+
+}
+
+.book-blurb em {
+
+    font-style: italic;
 
 }
 
