@@ -634,27 +634,43 @@ nav {
 
     .about-container {
 
-        grid-template-columns: 1fr;
-
-        gap: 60px;
-
-        text-align: center;
-
-    }
-
-    .about-content {
-
-        text-align: center;
-
-    }
-
-    .about-image img {
-
-        max-width: 340px;
-
-        width: 100%;
-
-    }
+       display: flex;
+   
+       flex-direction: column;
+   
+       align-items: center;
+   
+   }
+   
+   .about-content {
+   
+       order: 1;
+   
+       text-align: center;
+   
+   }
+   
+   .about-image {
+   
+       order: 2;
+   
+       margin: 15px 0 30px;
+   
+   }
+   
+   .about-image img {
+   
+       max-width: 340px;
+   
+       width: 100%;
+   
+   }
+   
+   .about-content p:last-child {
+   
+       order: 3;
+   
+   }
 
     .about h2 {
 
