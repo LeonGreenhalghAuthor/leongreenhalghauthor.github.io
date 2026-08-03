@@ -6,6 +6,16 @@ menuToggle.addEventListener("click", () => {
 
     navLinks.classList.toggle("active");
 
+    if (navLinks.classList.contains("active")) {
+
+        menuToggle.textContent = "✕";
+
+    } else {
+
+        menuToggle.textContent = "☰";
+
+    }
+
 });
 
 navItems.forEach(link => {
@@ -13,6 +23,8 @@ navItems.forEach(link => {
     link.addEventListener("click", () => {
 
         navLinks.classList.remove("active");
+
+        menuToggle.textContent = "☰";
 
     });
 
