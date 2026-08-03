@@ -609,7 +609,9 @@ nav {
 
     color: #1B1B1B;
 
-    padding: 0 0 120px;
+    border-top: 1px solid rgba(0,0,0,.06);
+
+    padding: 90 0 120px;
 
     text-align: center;
 
