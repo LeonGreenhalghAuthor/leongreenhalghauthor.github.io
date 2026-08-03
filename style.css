@@ -653,9 +653,11 @@ nav {
 
    .nav-links.active {
 
-       display: flex;
-   
-   }
+    display: flex;
+
+    animation: menuFade .2s ease;
+
+}
    
    .nav-links li {
    
@@ -764,5 +766,25 @@ nav {
        padding: 30px 20px;
    
    }
+
+}
+
+@keyframes menuFade {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateY(-10px);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0);
+
+    }
 
 }
