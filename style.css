@@ -614,8 +614,22 @@ nav {
    }
    
    .menu-toggle {
+
+       display: none;
    
-       display: block;
+       background: none;
+   
+       border: none;
+   
+       font-size: 2rem;
+   
+       color: #1B1B1B;
+   
+       cursor: pointer;
+   
+       padding: 0;
+   
+       transition: transform .2s ease;
    
    }
    
