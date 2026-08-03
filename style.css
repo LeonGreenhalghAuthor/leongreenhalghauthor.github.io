@@ -501,3 +501,93 @@ nav {
     color: #B8B1A5;
 
 }
+
+/* ========================================
+   About
+======================================== */
+
+.about {
+
+    background: #F5F1E8;
+
+    color: #1B1B1B;
+
+    padding: 80px 0 120px;
+
+}
+
+.about-container {
+
+    display: grid;
+
+    grid-template-columns: 40% 60%;
+
+    gap: 80px;
+
+    align-items: center;
+
+}
+
+.about-image {
+
+    display: flex;
+
+    justify-content: center;
+
+}
+
+.about-image img {
+
+    width: 100%;
+
+    max-width: 380px;
+
+    height: auto;
+
+    box-shadow: 0 20px 40px rgba(0,0,0,.15);
+
+}
+
+.about-content {
+
+    text-align: left;
+
+}
+
+.about h2 {
+
+    font-size: 2rem;
+
+    font-variant: small-caps;
+
+    letter-spacing: .35em;
+
+    font-weight: normal;
+
+    margin-bottom: 20px;
+
+}
+
+.about-subtitle {
+
+    font-size: .95rem;
+
+    text-transform: uppercase;
+
+    letter-spacing: .15em;
+
+    color: #666;
+
+    margin-bottom: 35px;
+
+}
+
+.about-content p {
+
+    font-size: 1.1rem;
+
+    line-height: 1.9;
+
+    color: #333;
+
+}
