@@ -5,16 +5,7 @@ const navItems = document.querySelectorAll(".nav-links a");
 menuToggle.addEventListener("click", () => {
 
     navLinks.classList.toggle("active");
-
-    if (navLinks.classList.contains("active")) {
-
-        menuToggle.textContent = "✕";
-
-    } else {
-
-        menuToggle.textContent = "☰";
-
-    }
+    menuToggle.classList.toggle("active");
 
 });
 
@@ -23,8 +14,7 @@ navItems.forEach(link => {
     link.addEventListener("click", () => {
 
         navLinks.classList.remove("active");
-
-        menuToggle.textContent = "☰";
+        menuToggle.classList.remove("active");
 
     });
 
