@@ -740,6 +740,22 @@ nav {
 
 }
 
+.google-form {
+
+    display: block;
+
+    width: 100%;
+
+    max-width: 700px;
+
+    height: 1350px;
+
+    margin: 0 auto;
+
+    border: none;
+
+}
+
 /* ========================================
    Mobile
 ======================================== */
