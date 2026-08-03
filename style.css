@@ -454,15 +454,15 @@ nav {
 
     gap: 30px;
 
-    margin-bottom: 60px;
+    margin-bottom: 75px;
 
 }
 
 .status-card {
 
-    border: 1px solid rgba(245,241,232,.20);
+    border: 1px solid rgba(245,241,232,.28);
 
-    padding: 35px 25px;
+    padding: 45px 30px;
 
 }
 
