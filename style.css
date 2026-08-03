@@ -278,6 +278,34 @@ nav {
    
    }
 
+   .about {
+
+       padding: 70px 20px 90px;
+   
+   }
+   
+   .about-container {
+   
+       grid-template-columns: 1fr;
+   
+       gap: 50px;
+   
+       text-align: center;
+   
+   }
+   
+   .about-content {
+   
+       text-align: center;
+   
+   }
+   
+   .about-image img {
+   
+       max-width: 320px;
+   
+   }
+
 }
 
 /* ========================================
