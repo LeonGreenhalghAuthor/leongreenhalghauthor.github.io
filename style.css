@@ -629,3 +629,37 @@ nav {
     color: #333;
 
 }
+
+@media (max-width: 1300px) {
+
+    .about-container {
+
+        grid-template-columns: 1fr;
+
+        gap: 60px;
+
+        text-align: center;
+
+    }
+
+    .about-content {
+
+        text-align: center;
+
+    }
+
+    .about-image img {
+
+        max-width: 340px;
+
+        width: 100%;
+
+    }
+
+    .about h2 {
+
+        letter-spacing: .2em;
+
+    }
+
+}
