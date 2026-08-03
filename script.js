@@ -3,14 +3,6 @@ const navLinks = document.querySelector(".nav-links");
 
 menuToggle.addEventListener("click", () => {
 
-    if (navLinks.style.display === "flex") {
-
-        navLinks.style.display = "none";
-
-    } else {
-
-        navLinks.style.display = "flex";
-
-    }
+    navLinks.classList.toggle("active");
 
 });
