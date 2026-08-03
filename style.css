@@ -632,6 +632,12 @@ nav {
        transition: transform .2s ease;
    
    }
+
+   .menu-toggle.active {
+
+       transform: rotate(90deg);
+   
+   }
    
    .nav-links {
 
