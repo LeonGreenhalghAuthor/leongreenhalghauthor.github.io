@@ -546,21 +546,23 @@ nav {
 
 .about-container {
 
+    width: min(1100px, 92%);
+
     display: grid;
 
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 42% 58%;
 
-    gap: 80px;
+    gap: 100px;
 
     align-items: center;
 
 }
 
-.about-image {
+.about-image img {
 
-    display: flex;
+    width: 100%;
 
-    justify-content: center;
+    max-width: 420px;
 
 }
 
