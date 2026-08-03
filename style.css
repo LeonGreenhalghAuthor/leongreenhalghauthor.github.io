@@ -775,6 +775,70 @@ nav {
 
 }
 
+/* ========================================
+   Back To Top
+======================================== */
+
+#backToTop {
+
+    position: fixed;
+
+    bottom: 30px;
+
+    right: 30px;
+
+    width: 52px;
+
+    height: 52px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background: #7B2328;
+
+    color: #F5F1E8;
+
+    font-size: 1.2rem;
+
+    cursor: pointer;
+
+    opacity: 0;
+
+    visibility: hidden;
+
+    transform: translateY(15px);
+
+    transition:
+        opacity .25s ease,
+        transform .25s ease,
+        visibility .25s ease,
+        background .2s ease;
+
+    z-index: 999;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,.25);
+
+}
+
+#backToTop:hover {
+
+    background: #912B31;
+
+    transform: translateY(-3px);
+
+}
+
+#backToTop.show {
+
+    opacity: 1;
+
+    visibility: visible;
+
+    transform: translateY(0);
+
+}
+
 @keyframes menuFade {
 
     from {
