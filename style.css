@@ -674,7 +674,9 @@ nav {
 
     .about h2 {
 
-        letter-spacing: .2em;
+      letter-spacing: .2em;
+
+      margin-bottom: 30px;
 
     }
 
