@@ -13,9 +13,13 @@ html {
 }
 
 body {
+
     background: #F5F1E8;
     color: #1B1B1B;
     font-family: Garamond, "Times New Roman", serif;
+
+    overflow-x: hidden;
+
 }
 
 /* ========================================
