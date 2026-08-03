@@ -650,6 +650,12 @@ nav {
        z-index: 1000;
    
    }
+
+   .nav-links.active {
+
+       display: flex;
+   
+   }
    
    .nav-links li {
    
