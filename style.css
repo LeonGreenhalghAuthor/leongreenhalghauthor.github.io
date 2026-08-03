@@ -300,18 +300,6 @@ nav {
    
    }
    
-   .about-image {
-   
-       order: 2;
-   
-   }
-   
-   .about-content {
-   
-       order: 1;
-   
-   }
-   
    .about-image img {
    
        max-width: 340px;
