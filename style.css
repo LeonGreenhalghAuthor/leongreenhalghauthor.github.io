@@ -376,7 +376,9 @@ nav {
 
     gap: 30px;
 
-    margin-bottom: 75px;
+    max-width: 620px;
+
+    margin: 0 auto 75px;
 
 }
 
